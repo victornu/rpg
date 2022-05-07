@@ -21,6 +21,10 @@
     #include "file.h"
     #include "my.h"
 
+typedef struct stat_s {
+    int stat;
+}stat_t;
+
 typedef struct horloge_s {
     sfClock *clock;
     sfTime time;
@@ -33,6 +37,7 @@ typedef struct object_s {
     sfVector2f scale;
     sfVector2f position;
     sfIntRect animation;
+    stat_t stat;
 }object_t;
 
 typedef struct button_s {
@@ -49,6 +54,7 @@ typedef struct game_s {
     sfRenderWindow *wdw;
     sfVideoMode mode;
     sfEvent event;
+    sfView *view;
     scene_t *scene;
 }game_t;
 
