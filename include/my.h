@@ -72,5 +72,7 @@ int count_height(char *str);
 void function_square(int **array_map, int height, int width);
 int my_put_nbru(unsigned int nb);
 int my_putnbr_money(int nb, char *str);
+char **my_str_to_word_array(char *str, char c);
 
+char *load_file_in_mem(char const *filepath);
 #endif

@@ -40,6 +40,7 @@ SRC	=	my_compute_square_root.c        \
 		my_swap.c	\
 		my_strdup.c	\
 		my_putnbr_money.c	\
+        my_str_to_word_array.c \
 
 OBJ	=	$(SRC:.c=.o)
 

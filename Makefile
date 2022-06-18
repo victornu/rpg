@@ -6,6 +6,17 @@
 ##
 
 SRC =	src/main.c	\
+		src/initialize.c \
+		src/events.c \
+		src/draw.c \
+		src/menu.c \
+		src/break_menu.c \
+		src/how_to_play.c \
+		src/movement_particuls.c \
+		src/movement_charactere.c \
+		src/initialize_charactere.c \
+		src/initialize_particuls.c \
+		src/initialize_map.c \
 
 OBJ	=	$(SRC:.c=.o)
 
